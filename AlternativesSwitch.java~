@@ -1,0 +1,56 @@
+package sheridan;
+
+import java.util.*;
+
+public class AlternativesSwitch{
+    
+    public static void main(String[] args){
+        
+        System.out.println("Starting Game..");        
+        
+        switch (keyboard){
+            
+            case 1: 
+                System.out.println("dialogal move not allowed");
+                break;
+                
+            case 2: 
+                System.out.println("Move down");
+                break;
+                
+            case 3: 
+                System.out.println("dialogal move not allowed");
+                break;
+                
+            case 4: 
+                System.out.println("Move left");
+                break;
+                
+                
+            case 6: 
+                System.out.println("Move right");
+                break;
+                
+            case 7: 
+                System.out.println("dialogal move not allowed");
+                break;
+                
+            case 8: 
+                System.out.println("Move up");
+                break;
+                
+            case 9: 
+                System.out.println("dialogal move not allowed");
+                break;
+                
+                
+            default:
+                System.out.println("Bad input");
+                
+                
+                
+        }
+        
+    }
+    
+}

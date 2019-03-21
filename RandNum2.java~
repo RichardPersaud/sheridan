@@ -1,0 +1,29 @@
+package sheridan;
+
+import java.util.*;
+
+public class RandNum2{
+    
+    public void RandChecker(){
+        
+        Random rand = new Random();
+        double randNum;
+        
+        do{
+            randNum = rand.nextDouble();
+        } while(randNum<=0.99);
+            
+            System.out.println("random num > " + randNum);
+        
+    }
+    
+    public static void main(String[] args){
+        int loop;
+        RandNum self = new RandNum();
+        
+        for(loop=1;loop<=5;loop++){
+        self.RandChecker();
+        }
+    }
+    
+}

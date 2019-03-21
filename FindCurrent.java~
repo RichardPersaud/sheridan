@@ -1,0 +1,54 @@
+package sheridan;
+
+import java.util.*;
+
+public class FindCurrent{
+    
+// main method
+    public static void main(String[]args){
+         //Declaration and Initialization
+        int vol;
+        int resis;
+        Scanner in = new Scanner(System.in);// Scanner to ask for input
+         
+        //Asking User
+        System.out.print("Enter the resistance: ");
+         resis = in.nextDouble();
+        System.out.println("Enter the voltage: ");
+         vol = in.nextDouble();
+ 
+        //Declaration and Initialization
+        //call method using self object
+       FindCurrent self = new FindCurrent(); 
+       //calling the flip method
+       self.calculateCurrent(numflips);
+    }
+ 
+    public void calculateCurrent(double vol, double resis){
+         //Declaration and Initialization
+        int i = 0;
+        int randNum = 0;
+       
+        //As long as flips is grater than or equals to count it repeats
+        for(count = 1; count <= 30; count++)
+            //for loops could also work 
+        {
+             
+       //if statement
+            if(randNum < 0.5)  //(true option)
+            {
+                System.out.println("\t heads");
+                heads++;     //counts heads + 1
+            }
+            else           //else (false option)
+            {
+                System.out.println("\t tails");
+                tails++;      //counts tails + 1
+             }
+            count++;      
+        }
+        // Outputs the results of each iteration and display counts
+         System.out.println("Result: " +heads+ " Heads"+" and "
+                               +tails+" Tails");
+    }
+}

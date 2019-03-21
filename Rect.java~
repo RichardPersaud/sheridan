@@ -1,0 +1,17 @@
+package sheridan;
+
+import java.util.*;
+
+public class Rect{
+    
+    
+    public Rect(100){
+    length = 100;
+    }
+
+    public static void main(String[] args){
+    
+    
+    }
+
+}

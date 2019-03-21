@@ -1,0 +1,23 @@
+package sheridan;
+
+import java.util.*;
+
+public class Arrays101 {
+ 
+    public static void main(String [] args){
+        
+        // Resizing lenght of an array
+        
+        int [] numbers = new int [8];
+        numbers [0] = 56;
+        numbers [1] = 79;
+        numbers [2] = 33;
+        numbers [3] = 100;
+        numbers [4] = -3;
+        
+        //System.out.print (numbers[3]);
+        for (int i=0; i < numbers.length; i++){
+            System.out.print (numbers[i]+ " ");
+        }
+    }
+}

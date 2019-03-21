@@ -1,0 +1,17 @@
+package sheridan;
+
+import java.util.*;
+
+public class ForLoops{
+
+    public static void main(String[] args){
+    
+        for (int lineNo = 0; lineNo < 5; lineNo=lineNo+1)
+        {
+            System.out.println("Hello Loop " + lineNo);
+        }
+    
+    }
+
+
+}

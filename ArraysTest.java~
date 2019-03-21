@@ -1,0 +1,17 @@
+package sheridan;
+import java.util.*;
+
+public class ArraysTest{
+
+    public static void main(String[] args){
+    
+        int i = 1, 2, 3, 4, 5,;
+        
+        for(int i=0; i<arrInt.length; i++){
+        System.out.println(arrInt[i]);
+        }
+    
+            
+    }
+
+}

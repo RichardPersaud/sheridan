@@ -1,0 +1,42 @@
+package sheridan;
+import java.util.*;
+public class AddTwoNumbers {
+    
+    private int num1;
+    private int num2;
+    
+    public void setNum1(int newNum1){
+        num1 = newNum1;
+    }
+    // setting num1 and num2 public 
+    public void setNum2(int newNum2){
+        num1 = newNum2;
+    }
+    
+    public int add(){
+        int result = num1 + num2;
+        
+        return result;
+    }
+    
+    
+    public static void main(String[] args){
+        
+        AddTwoNumbers self = new AddTwoNumbers();
+        Scanner input = new Scanner(System.in);
+        
+        
+        System.out.println("Please enter num1: ");
+        self.num1 = input.nextInt();
+        
+        System.out.println("Please enter num2: ");
+        self.num2 = input.nextInt();
+        
+        int result;
+        result = self.add();
+        
+        System.out.println("The result of adding is " + self.add());
+        
+    }       
+    
+}

@@ -1,0 +1,19 @@
+Welcome to DrJava.  Working directory is C:\Users\richa\OneDrive\Desktop\Sheridan\OOP_JAVA_1_files\Java prog files\sheridan
+> run HeadsOrTails
+How many times you would like to toss the coin? 
+ 1 = 2  Times 
+ 2 = 5  Times 
+ 3 = 10 Times
+ [DrJava Input Box]
+	 tails
+	 tails
+	 tails
+	 tails
+	 heads
+	 tails
+	 heads
+	 tails
+	 tails
+	 tails
+Result: 2 Heads and 8 Tails
+> 

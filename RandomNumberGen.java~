@@ -1,0 +1,15 @@
+package sheridan;
+
+import java.util.*;
+
+public class RandomNumberGen{
+    
+    int num = rand.nextInt;
+
+    public static void main(String[] args){
+    
+        
+    
+    }
+
+}

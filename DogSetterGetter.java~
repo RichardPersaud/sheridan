@@ -1,0 +1,53 @@
+
+//991561952  Yewon Lee
+package sheridan; 
+public class DogSetterGetter { 
+    public String name;
+    public void bigBark() { 
+        System.out.println(one + " says Woof! Woof!"); 
+    }
+    public void smallBark() { 
+        System.out.println(two + " says Yip! Yip!"); 
+    }
+    
+   // teachers instruction
+   public void setName(String strName) {
+        
+        name = strName;
+    }
+    
+    public String getName ()
+    {
+        return name;
+    } 
+    
+    One.setName ("Thor");
+    Two.setName ("Tiny");
+    
+    
+    /* my try 
+    private String one;
+    private String two;
+    
+    public void setOne (String Thor) {
+        one = Thor;
+    }
+    public void setTwo (String Tiny) {
+        two = Tiny;
+    }
+    public String getOne() {
+        return one;
+
+    }
+    public String getTwo() {
+        return two;
+    
+    } 
+    */
+    
+    
+    public static void main(String[] args) { 
+        Dog one = new Dog(); one.name = "Thor"; 
+        Dog two = new Dog(); two.name = "Tiny"; 
+        one.bigBark(); two.smallBark(); }//
+} // End of class Dog

@@ -1,0 +1,12 @@
+public class Arraytest2{
+
+
+    public static void main(String[] args){
+    
+        for (int index=0; index < arr.length; index++){
+        System.out.println(arr[index]);
+        }
+    
+    }
+
+}

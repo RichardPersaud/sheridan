@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class FindCurrent2{
+    public static void main(String args[]){
+        double res; double vol; double cur;
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter Resistance");
+        res = input.nextDouble();
+        System.out.println("Enter Voltage");
+        vol = input.nextDouble();
+        
+        temp calc = new temp();
+        System.out.println("Row"+"  "+"Voltage"+"  "+"Resistance"+"  "+"Current");
+        for(int loop = 1; loop <=30; loop++){
+            System.out.print(loop+".");
+            cur = calc.calculateCurrent(res,vol);
+            System.out.print("  "+ vol);
+            System.out.print("  "+ res);
+            System.out.println("  "+ cur);
+            res = res +10;
+            vol = vol +5;
+        }
+        input.close();
+    }
+    
+    public double calculateCurrent(double res, double vol){
+        double cur = 0.0;
+        
+        cur = res/vol;
+        
+        return cur;
+    }
+}

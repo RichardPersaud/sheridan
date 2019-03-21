@@ -1,0 +1,16 @@
+package sheridan;
+import java.util.*;
+
+public class RandomNumCalAverage{
+    
+    public int num;
+
+    public static void main(String[] args){
+        
+        Random rand = new Random();
+        
+        int num = nextInt();
+    
+    }
+
+}

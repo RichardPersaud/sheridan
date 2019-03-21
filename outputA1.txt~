@@ -1,0 +1,10 @@
+Welcome to DrJava.  Working directory is C:\Users\richa\OneDrive\Desktop\Sheridan\OOP_JAVA_1_files\Java prog files
+> run sheridan.SeparateFourValues
+Enter A Four Digit Value: 
+ [DrJava Input Box]
+6   5   4   3
+> run sheridan.SeparateFourValues
+Enter A Four Digit Value: 
+ [DrJava Input Box]
+9   7   6   8
+> 

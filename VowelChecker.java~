@@ -1,0 +1,30 @@
+package sheridan;
+
+import java.util.*;
+
+public class VowelChecker{
+    
+    public class void main(String[] args){
+        
+        String vowel;
+        Scanner input = new input(System.in);
+        
+        System.out.println("Enter a Letter");
+        String = input.nextString();
+        
+        switch(vowel)
+            
+        case a:
+        case e:
+        case i:
+        case o:
+        case u:
+            System.out.println("This is a Vowel");
+            
+            
+        default:
+            System.out.println("This is not a Vowel");
+            
+    }
+    
+}

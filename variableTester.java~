@@ -1,0 +1,46 @@
+public class variableTester {
+
+    public Static void main(String [] args){
+    
+int value;
+value = 5;
+value = 10;
+value = 15;
+//value = "John";
+
+boolean isCorrect;
+isCorrect = true;
+isCorrect = false;
+//isCorrect = 0;
+
+char ch;
+ch = 'x';
+ch = 'y';
+//ch = "Z";
+
+byte smallValue;
+smallValue = 78;
+smallValue = 20;
+//smallValue = 123455;
+
+Circle c;
+c = new Circle();
+Circle c2 = new Circle();
+c = new Circle();
+//c = new Rectangle();
+
+Program p; 
+p = null;
+p = new Program();
+p = new Program();
+//p = new Circle();
+
+System.out.println(value);
+System.out.println(isCorrect);
+System.out.println(ch);
+System.out.println(smallValue);
+System.out.println(c);
+System.out.println(p);
+    }
+
+}
