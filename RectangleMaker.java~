@@ -2,12 +2,15 @@ package sheridan;
 
 import java.util.*;
 
-public class RowCol{
+public class RectangleMaker{
 
     public static void main(String[] args){
+        
+        
+
     
         for(int row = 0; row<=8; row+=2){
-            
+            System.out.println("A 5 x 3 rectangle made of the letter ‘O’ \n")
             for(int col=0; col <=8; col+=2){
                 
                 System.out.print("0 ");

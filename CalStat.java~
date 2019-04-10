@@ -1,0 +1,39 @@
+package sheridan;
+import java.util.*;
+
+public class CalStat{
+    
+    public void calculate(int num){
+        
+        
+        //calculation goes here!!
+        
+        System.out.print("Your Random number is: " + "\n");
+        
+    }
+    
+    public static void main(String[] args){
+        
+        CalStat self = new CalStat(); 
+        Scanner input = new Scanner(System.in);
+        
+        
+        System.out.print("Enter one or more integers" +
+                             "(0 marks the end of input): ");
+        
+        while(num != 999){
+            
+            num = input.nextInt();
+
+                //sending
+            self.calculate(num);
+            
+            
+            
+        }
+        
+        input.next();
+            
+            continue;
+    }
+}

@@ -1,0 +1,65 @@
+package sheridan;
+
+import java.util.*;
+
+public class RectangleMaker2{
+    
+   private int height;
+   private int width;
+   private String value;
+   
+   public void setHeight(int Height){//sets the height
+       this.height = Height;
+   }
+   
+   
+   public void setWidth(int Width){//sets the width
+       this.width = Width;
+   }
+   
+   
+   public void setValue(String Value){
+       this.value = Value;
+   }
+   
+   
+   
+   public void rect(int height,int width,String value){
+  
+      for (int i=1;i<=height;i++){//loop to creat the rectangle of desired size
+            System.out.println();
+            for (int l=1;l<=width;l++){
+                System.out.print(this.value);
+            }
+        }    
+   }
+   
+   
+    public static void main(String[] args){
+          RectangleMaker self = new RectangleMaker();
+          
+          
+          self.height=3;
+          self.width=5;
+          self.value="0";
+        //calling the method after declaring the desired size 
+         self.rect(self.height, self.width, self.value);
+         
+         
+         System.out.println();
+          self.height=6;
+          self.width=16;
+          self.value="T";
+         self.rect(self.height, self.width, self.value);
+         
+         
+         
+         
+          System.out.println();
+          self.height=4;
+          self.width=2;
+          self.value="%";
+          self.rect(self.height, self.width, self.value);
+       
+   }  
+}

@@ -1,0 +1,10 @@
+Welcome to DrJava.  Working directory is C:\Users\richa\OneDrive\Desktop\Sheridan\OOP_JAVA_1_files\Java prog files
+> run sheridan.CalStat
+Enter one or more integers (999 marks the end of input):  [DrJava Input Box]
+The total is: 176
+The average is: 29.333333333333332
+The number of positive is: 5
+The number of negatives is: 1
+The highest number is: 55
+The lowest number is: -11
+> run sheridan.CalStat

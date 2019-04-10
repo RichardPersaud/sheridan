@@ -1,0 +1,18 @@
+Welcome to DrJava.  Working directory is C:\Users\richa\OneDrive\Desktop\Sheridan\OOP_JAVA_1_files\Java prog files
+> run sheridan.RectangleMaker
+
+00000
+00000
+00000
+
+TTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTT
+
+%%
+%%
+%%
+%%> 

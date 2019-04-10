@@ -1,0 +1,47 @@
+package sheridan;
+
+import java.util.*;
+
+public class GuessingGames{
+
+    Random rand = new Random();
+    Scanner input = new Scanner(System.in);
+    
+   int correctGuess = 5;
+    
+    for(int i = 0; i < 3; i++){
+    
+    System.out.pritnln("Larry Guess: ");
+    int larry = input.nextInt();
+    
+    
+    System.out.println("Curly Guess: ");
+    int curly = input.nextInt();
+    
+    
+    System.out.println("Moe Guess: ");
+    int moe = input.nextInt();
+    
+    
+    if(larry == correctGuess){
+        System.out.println("Larry Won!!!")
+            
+        if(curly == correctGuess){
+            System.out.println("Curly Won!!!")
+                
+                if(moe == corrrectGuess){
+                System.out.println("Moe Won!!!")
+            
+            }
+        
+        }
+    
+    }else{
+    System.out.println("Try Again!....")
+    }
+        
+    }
+
+
+}
+

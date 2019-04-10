@@ -1,0 +1,21 @@
+package sheridan;
+
+import java.util.*;
+
+public class NameCompare{
+
+
+    public static void main(String[] args){
+    
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter First String :");
+        int FS = input.nextLine();
+        
+        System.out.println("Enter Second String :");
+        int SS = input.nextLine();
+    
+    
+    }
+
+
+}
