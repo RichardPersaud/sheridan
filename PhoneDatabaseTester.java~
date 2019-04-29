@@ -1,0 +1,24 @@
+package sheridan;
+import java.util.*;
+
+public class PhoneDatabaseTester{
+
+    public static void main(String[] args){
+    
+        PhoneDatabase DB = new PhoneDatabase();
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter Size Of Table: ");
+        int TB_length = input.nextLine();
+        
+        for(int i = 0; i < TB_length; i++){
+        System.out.print("Enter Table Details");
+        int TB
+        
+        }
+        
+
+        
+    }
+
+}

@@ -1,0 +1,21 @@
+package sheridan;
+
+import java.uitl.*;
+
+public class SumArray{
+
+    public static void main(String[] args){
+        
+        int[] num;
+        int num[] = new int[];
+    
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter 5 numbers: ");
+        int num = input.nextInt();
+        
+        System.out.println(Array.toString[num]);
+                          
+        
+    }
+
+}

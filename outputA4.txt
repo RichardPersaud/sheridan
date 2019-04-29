@@ -1,0 +1,48 @@
+Welcome to DrJava.  Working directory is C:\Users\richa\OneDrive\Desktop\Sheridan\OOP_JAVA_1_files\Java prog files
+> run sheridan.PhoneDatabaseTester
+Enter Size Of Table:
+ [DrJava Input Box]
+Table Size Is: 4
+Enter Index Table Details:
+1 > [DrJava Input Box]
+Enter Index Table Details:
+2 > [DrJava Input Box]
+Enter Index Table Details:
+3 > [DrJava Input Box]
+Enter Index Table Details:
+4 > [DrJava Input Box]
+
+Your 4 Index Values Are:
+ 
+[peter, sam, ham, kiter]
+
+....................................
+
+Items In Alphabetical Sorted Order:
+ 
+[ham, kiter, peter, sam]
+
+....................................
+
+Searching Items for: 
+ [DrJava Input Box]
+
+ ....Results:....
+ham - Found
+kiter - Result not found
+peter - Result not found
+sam - Found
+
+....................................
+
+Search for [DrJava Input Box]
+
+ ....Results:....
+ham - Result not found
+kiter - Found
+peter - Found
+sam - Result not found
+
+....................................
+
+Search for [DrJava Input Box]

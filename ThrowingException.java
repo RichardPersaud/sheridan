@@ -37,7 +37,7 @@ public class ThrowingException{
                 self.calculate(num);
             }
             
-            catch(IllegalArgum\entException e){
+            catch(IllegalArgumentException e){
             
              System.out.println("INVALID NUMBER "
                                        + e.getMessage());

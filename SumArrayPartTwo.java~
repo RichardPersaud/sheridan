@@ -1,0 +1,36 @@
+package sheridan;
+
+import java.util.*;
+
+public class SumArrayPartTwo{
+    
+    
+ /////////////////........Practice..........///////////////////////////////////       
+
+        
+    public void compareTo(){
+    
+        Integer x = new Integer("90");
+        
+          Integer y= new Integer("58");
+          
+          int retResult =  x.compareTo(y); 
+          
+          if(retResult > 0) {  
+              
+             System.out.println("x is greater than y");  
+             
+          } else if(retResult< 0) {  
+              
+             System.out.println("x is less than y");  
+             
+          } else {  
+              
+             System.out.println("x is equal to y");  
+          }  
+  
+        
+    }
+
+
+}
